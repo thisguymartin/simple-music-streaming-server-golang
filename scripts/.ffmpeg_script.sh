@@ -1,0 +1,1 @@
+ffmpeg -i  dollars_cents.mp3 -f segment -segment_time 10 -segment_list outputlist.m3u8 -segment_format mpegts output%03d.ts
